@@ -1,0 +1,14 @@
+html, body, main {
+    height: 100%;
+}
+
+.header_frame {
+}
+
+.app-sitemain {
+  flex:auto;
+  overflow: hidden;
+}
+
+.footer_frame {
+}

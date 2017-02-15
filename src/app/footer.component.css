@@ -1,0 +1,23 @@
+.footer_content_frame {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 10px;
+}
+
+.footer_content_item {
+  margin-top: 0;
+  margin-right: 5px;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+}
+
+.footer_content_item_child {
+  margin-left: 6px;
+}

@@ -1,0 +1,78 @@
+@font-face {
+   font-family: 'Open Sans';
+   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Open Sans Light';
+   src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+}
+
+.siteHeader {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  padding: 3px;
+  /*background-color: #56727C;*/
+  /*font-family: 'PT Sans', sans-serif;*/
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.siteHeader__section {
+  display: flex;
+
+  /**
+  * Align the children in the center, along
+  * the main axis. By default the children will
+  * align along their top edges.
+  */
+  align-items: center;
+}
+
+.siteHeader__item {
+  padding: 5px 15px;
+  font-size: 13px;
+}
+
+.siteHeader__item + .siteHeader__item {
+  margin-left: 5px;
+}
+
+.siteHeader__item.is-site-header-item-selected {
+  color: #FFFFFF;
+  background-color: #415F69;
+  border-radius: 4px;
+}
+
+.siteHeaderLogo {
+  font-size: 20px;
+  line-height: 0;
+  color: #415F69;
+}
+
+.siteHeaderLink {
+  cursor: default;
+  color: black;
+}
+
+.siteHeaderLink:hover {
+  color: skyblue;
+}
+
+.login {
+  text-decoration: none;
+  cursor: default;
+  color: black;
+}
+
+.login:hover {
+  color: skyblue;
+}
+
+.modal-content01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+}
