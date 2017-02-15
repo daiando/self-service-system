@@ -76,3 +76,10 @@
   overflow: hidden;
   position: absolute;
 }
+
+.makeithidden {
+  display: none;
+}
+.makeitvisible {
+  display: flex;
+}

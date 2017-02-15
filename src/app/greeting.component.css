@@ -18,8 +18,8 @@
 
 .greeting_img {
   background: url(../../assets/images/ferriswheel001.JPG);
-  width: 1000px;
-  height: 300px;
+  width: 900px;
+  height: 280px;
   display: flex;
   align-items: center;
   justify-content:flex-start;
@@ -32,8 +32,8 @@
   width: 900px;
   display: flex;
   margin-left: 70px;
-  margin-bottom: 105px;
-  margin-top: 30px;
+  margin-bottom: 85px;
+  margin-top: 25px;
 }
 
 .greeting_msg {

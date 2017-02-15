@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  public loginmodalcss = "makeithidden";
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onChangeLoginModalCss(logincss: string) {
+  	this.loginmodalcss = logincss;
   }
 
 }
