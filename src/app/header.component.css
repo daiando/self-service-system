@@ -75,11 +75,14 @@
   justify-content: center;
   overflow: hidden;
   position: absolute;
+  overflow: hidden;
 }
 
 .makeithidden {
   display: none;
+  overflow: hidden;
 }
 .makeitvisible {
   display: flex;
+  overflow: hidden;
 }

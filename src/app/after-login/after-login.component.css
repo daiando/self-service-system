@@ -1,0 +1,80 @@
+4rgba(164, 31, 246, 0.7)rgba(235, 246, 31, 0.78)@font-face {
+   font-family: 'Open Sans';
+   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Open Sans Light';
+   src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+}
+
+.after_login_frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_main_menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 930px;
+  height: 320px;
+}
+
+.menu_provisioning:hover {
+  background-color: rgba(235, 246, 31, 0.78);
+  cursor: default;
+}
+
+.menu_operation:hover {
+  background-color: rgba(31, 246, 65, 0.78);
+  cursor: default;
+}
+
+.menu_resume:hover {
+  background-color: rgba(164, 31, 246, 0.7);
+  cursor: default;
+}
+
+.service_main_item {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 300px;
+  height: 200px;
+  margin: 2px;
+  padding: 0;
+  border: 2px solid #1a065e;
+  border-radius: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.service_main_item_top {
+  font-family: Ubuntu;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  margin-top: 5px;
+}
+
+.service_main_item_bottom {
+  font-size: 14px;
+  font-family: 'Open Sans';
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 5px 5px 0px 10px;
+  display: flex;
+}
+
+.menu_logo {
+  font-size: 80px;
+  margin: 0;
+}
+
+.menu_title {
+  font-size: 30px;
+}

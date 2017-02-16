@@ -63,12 +63,12 @@
   display: flex;
   justify-content: space-between;
   border-right: 1px solid #415F69;
-  margin-right: -8px;
+  margin-right: -3px;
 }
 
 .welcomemsg {
   display: flex;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .allowed_user {
@@ -81,7 +81,7 @@
   cursor: default;
   color: black;
   margin-left: 0;
-  padding-left:0 ;
+  padding-left:0;
 }
 
 .logout:hover {

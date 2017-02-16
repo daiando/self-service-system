@@ -13,7 +13,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .greeting_img {
@@ -32,13 +31,15 @@
   width: 900px;
   display: flex;
   margin-left: 70px;
-  margin-bottom: 85px;
-  margin-top: 25px;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .greeting_msg {
   color: white;
   font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .release_report {
