@@ -10,6 +10,20 @@
    src: url('assets/fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
 }
 
+@font-face {
+   font-family: 'Open Sans';
+   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+   font-family: 'Open Sans Light';
+   src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+}
+
+html, body, main {
+    height: 100%;
+}
+
 .app_siteframe {
   display: flex;
   min-height: 100vh;

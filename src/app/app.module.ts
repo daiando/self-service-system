@@ -10,6 +10,7 @@ import { GreetingComponent } from './greeting.component';
 import { AfterLoginComponent } from './after-login/after-login.component';
 import { ServiceHeaderComponent } from './after-login/service-header.component';
 import { FooterComponent } from './footer.component';
+import { ServiceListComponent } from './service-list/service-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FooterComponent } from './footer.component';
     GreetingComponent,
     AfterLoginComponent,
     ServiceHeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ServiceListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-4rgba(164, 31, 246, 0.7)rgba(235, 246, 31, 0.78)@font-face {
+@font-face {
    font-family: 'Open Sans';
    src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
 }
@@ -23,23 +23,23 @@
 }
 
 .menu_provisioning:hover {
-  background-color: rgba(235, 246, 31, 0.78);
+  background-color: #f3f4eb;
   cursor: default;
 }
 
 .menu_operation:hover {
-  background-color: rgba(31, 246, 65, 0.78);
+  background-color: #f3f4eb;
   cursor: default;
 }
 
 .menu_resume:hover {
-  background-color: rgba(164, 31, 246, 0.7);
+  background-color: #f3f4eb;
   cursor: default;
 }
 
 .service_main_item {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-direction: column;
   width: 300px;
   height: 200px;

@@ -1,13 +1,11 @@
-html, body, main {
-    height: 100%;
-}
-
 .header_frame {
 }
 
 .app-sitemain {
   flex:auto;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  height: 100%;
 }
 
 .footer_frame {
