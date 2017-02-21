@@ -3,13 +3,13 @@
   flex-direction: column;
   overflow: hidden;
   border-radius: 4px;
-  background-color: white;
+  background-color: #d8f8fa;
   align-items: center;
   width: 400px;
   height: 450px;
   justify-content: space-between;
   margin: 0;
-  color: #383b3b;
+  color: black;
   font-family: 'Open Sans Bold', sans-serif;
 }
 
@@ -48,7 +48,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  margin-top: -90px;
+  margin-top: -140px;
 }
 
 .login_inner_bottom {
@@ -115,23 +115,23 @@
 }
 
 .login_enter_btn {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   border-radius: 3px;
   height: 20px;
   width: 40px;
-  color: black;
-  background-color: #d9e6f5;
+  color: white;
+  background-color: #383b3b;
   align-items: center;
   text-align: center;
   justify-content: center;
-  border: 1px solid black;
-
+  padding-bottom: 2px;
 }
 
 .login_enter_btn:hover {
-  color:#1a065e;
-  background-color: #d9e6f5;
+  font-family: 'Open Sans Bold', sans-serif;
+  color:#000001;
+  background-color: #ddf5d9;
   border: 1px solid #1a065e;
   cursor: default;
 }
@@ -150,5 +150,6 @@
 
 .loginInput_icon_pass {
   color: white;
-  margin-left: 5px;
+  margin-left: 6px;
+  font-size: 14px;
 }

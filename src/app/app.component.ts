@@ -6,6 +6,8 @@ import { GreetingComponent } from './greeting.component';
 import { AfterLoginComponent } from './after-login/after-login.component';
 import { ServiceHeaderComponent } from './after-login/service-header.component';
 import { ServiceListComponent } from './service-list/service-list.component';
+import { LineChartComponent } from './decor/line-chart.component';
+// import { NvD3testDirective } from './after-login/nv-d3test.directive';
 
 @Component({
   selector: 'svr-root',

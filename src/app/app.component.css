@@ -3,7 +3,7 @@
 
 .app-sitemain {
   flex:auto;
-  overflow-y: hidden;
+  overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
 }

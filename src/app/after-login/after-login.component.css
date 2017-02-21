@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
    font-family: 'Open Sans';
    src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
 }
@@ -6,12 +6,14 @@
 @font-face {
    font-family: 'Open Sans Light';
    src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
-}
+}*/
 
 .after_login_frame {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  flex-direction: column;
 }
 
 .service_main_menu {
@@ -19,7 +21,8 @@
   align-items: center;
   justify-content: space-around;
   width: 930px;
-  height: 320px;
+  height: 180px;
+  margin-top: -20px;
 }
 
 .menu_provisioning:hover {
@@ -28,6 +31,11 @@
 }
 
 .menu_operation:hover {
+  background-color: #f3f4eb;
+  cursor: default;
+}
+
+.menu_result:hover {
   background-color: #f3f4eb;
   cursor: default;
 }
@@ -41,11 +49,11 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 300px;
-  height: 200px;
+  width: 225px;
+  height: 120px;
   margin: 2px;
   padding: 0;
-  border: 2px solid #1a065e;
+  border: 1px solid #bbc8cf;
   border-radius: 5px;
   display: flex;
   align-items: flex-start;
@@ -56,13 +64,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 300px;
-  height: 100px;
-  margin-top: 5px;
+  width: 225px;
+  height: 60px;
+  margin-top: 15px;
 }
 
 .service_main_item_bottom {
-  font-size: 14px;
+  font-size: 13px;
   font-family: 'Open Sans';
   align-items: flex-start;
   justify-content: flex-start;
@@ -71,10 +79,10 @@
 }
 
 .menu_logo {
-  font-size: 80px;
+  font-size: 55px;
   margin: 0;
 }
 
 .menu_title {
-  font-size: 30px;
+  font-size: 25px;
 }
