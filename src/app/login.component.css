@@ -4,12 +4,13 @@
   overflow: hidden;
   border-radius: 4px;
   background-color: white;
-  font-size: 15px;
   align-items: center;
-  width: 350px;
-  height: 400px;
+  width: 400px;
+  height: 450px;
   justify-content: space-between;
   margin: 0;
+  color: #383b3b;
+  font-family: 'Open Sans Bold', sans-serif;
 }
 
 .login_inner_top {
@@ -17,23 +18,26 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0;
-  margin: 0;
-  width: 340px;
+  margin-top: 10px;
+  width: 400px;
   height: 70px;
-  color: #1a065e;
 }
 
 .login_inner_top_right {
-  font-family: 'Open Sans Light', sans-serif;
   display: flex;
   flex-direction: column;
   margin: 5px 0;
   padding: 1px;
 }
 
+.login_inner_top_right_child {
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .login_inner_top_left {
   height: inherit;
-  font-size: 70px;
+  font-size: 65px;
   padding: 3px;
   margin-left: 20px;
   margin-right: 20px;
@@ -44,17 +48,17 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  margin-top: -80px;
+  margin-top: -90px;
 }
 
 .login_inner_bottom {
   display: flex;
-  border-top: 1px solid #1a065e;
+  border-top: 1px solid #383b3b;
   padding: 0;
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  width: 340px;
+  width: 390px;
   height: 30px;
 }
 
@@ -67,8 +71,7 @@
   cursor: default;
   margin-right: 3px;
   padding: 3px;
-  font-family: 'Open Sans Light', sans-serif;
-  color: #6d5780;
+  color: #383b3b;
   font-size: 12px;
 }
 
@@ -82,10 +85,10 @@
   align-items: center;
   width: 280px;
   border-radius: 4px;
-  border:1px solid #1a065e;
+  border:1px solid #383b3b;
   height: 30px;
   overflow: hidden;
-  background-color: #1a065e;
+  background-color: #383b3b;
   margin-bottom: 10px;
 }
 
@@ -93,7 +96,7 @@
   font-family: 'Open Sans Light', sans-serif;
   font-size: 13px;
   text-align: left;
-  border-left: 1px solid #1a065e;
+  border-left: 1px solid #383b3b;
   border-top: none;
   border-bottom: none;
   border-right: none;
@@ -108,26 +111,29 @@
   justify-content: space-between;
   align-items: center;
   width: 280px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 11px;
+  height: 20px;
 }
 
 .login_enter_btn {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 12px;
   border-radius: 3px;
-  height: 16px;
+  height: 20px;
   width: 40px;
-  color:white;
-  background-color: #1a065e;
+  color: black;
+  background-color: #d9e6f5;
+  align-items: center;
   text-align: center;
-  padding: 2px;
+  justify-content: center;
+  border: 1px solid black;
+
 }
 
 .login_enter_btn:hover {
   color:#1a065e;
-  background-color: rgb(217, 230, 245);
+  background-color: #d9e6f5;
   border: 1px solid #1a065e;
   cursor: default;
-  margin-top: -2px;
 }
 
 .loginInput_label {
