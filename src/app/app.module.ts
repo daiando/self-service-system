@@ -13,6 +13,8 @@ import { ServiceHeaderComponent } from './after-login/service-header.component';
 import { FooterComponent } from './footer.component';
 import { ServiceListComponent } from './service-list/service-list.component';
 import { LineChartComponent } from './decor/line-chart.component';
+import { BarChartComponent } from './decor/bar-chart.component';
+import { DoughnutChartComponent } from './decor/doughnut-chart.component';
 // import { NvD3testDirective } from './after-login/nv-d3test.directive';
 
 @NgModule({
@@ -25,7 +27,9 @@ import { LineChartComponent } from './decor/line-chart.component';
     ServiceHeaderComponent,
     FooterComponent,
     ServiceListComponent,
-    LineChartComponent
+    LineChartComponent,
+    BarChartComponent,
+    DoughnutChartComponent
   ],
   imports: [
     BrowserModule,

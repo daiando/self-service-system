@@ -1,12 +1,19 @@
 .header_frame {
+  height: 40px;
+  border-bottom: 1px solid #D7DBDD;
+  padding: 1px;
 }
 
 .app-sitemain {
+  display: flex;
   flex:auto;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .footer_frame {
+  border-top: 1px solid #D7DBDD;
 }

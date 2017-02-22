@@ -21,7 +21,7 @@
         "styles.css"
       ],
       "scripts": [
-        "../node_modules/chart.js/dist/Chart.js"
+        "../node_modules/chart.js/dist/Chart.bundle.js"
       ],
       "environments": {
         "source": "environments/environment.ts",

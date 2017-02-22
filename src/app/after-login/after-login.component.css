@@ -10,19 +10,62 @@
 
 .after_login_frame {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 100%;
-  flex-direction: column;
+  flex-direction: row;
+  width: 1400px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.inner_left_frame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 870px;
+  /*margin-top: 10px;*/
+  margin-right: 5px;
+  flex-flow: column;
 }
 
 .service_main_menu {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 930px;
-  height: 180px;
-  margin-top: -20px;
+  width: inherit;
+  margin-top: 10px;
+}
+
+.inner_right_frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 630px;
+}
+
+.main_menu_info {
+  display: flex;
+  border: 1px solid #d2ecf1;
+  border-radius: 5px;
+  height: 300px;
+  width: inherit;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Ubuntu;
+  align-items: center;
+}
+
+.main_menu_info_parts {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:430px;
+  height: 300px;
+  display: flex;
+  margin: 5px
 }
 
 .menu_provisioning:hover {
@@ -49,8 +92,8 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 225px;
-  height: 120px;
+  width: 210px;
+  height: 100px;
   margin: 2px;
   padding: 0;
   border: 1px solid #bbc8cf;
@@ -64,13 +107,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 225px;
-  height: 60px;
+  width: 175px;
+  height: 50px;
   margin-top: 15px;
 }
 
 .service_main_item_bottom {
-  font-size: 13px;
+  font-size: 11px;
   font-family: 'Open Sans';
   align-items: flex-start;
   justify-content: flex-start;
@@ -79,10 +122,21 @@
 }
 
 .menu_logo {
-  font-size: 55px;
+  font-size: 45px;
   margin: 0;
 }
 
+.logo_entypo_style {
+  width: 35px;
+  height: 35px;
+  margin-top: 10px;
+}
+
 .menu_title {
-  font-size: 25px;
+  font-size: 21px;
+}
+
+.chart_parts {
+  margin-top: 20px;
+  padding: 1px;
 }

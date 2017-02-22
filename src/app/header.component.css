@@ -11,8 +11,7 @@
 .siteHeader {
   display: flex;
   justify-content: space-between;
-  height: 20px;
-  padding: 3px;
+  align-items: center;
   /*background-color: #56727C;*/
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: 'Ubuntu', sans-serif;
@@ -20,17 +19,11 @@
 
 .siteHeader__section {
   display: flex;
-
-  /**
-  * Align the children in the center, along
-  * the main axis. By default the children will
-  * align along their top edges.
-  */
   align-items: center;
 }
 
 .siteHeader__item {
-  padding: 5px 15px;
+  padding: 7px 15px;
   font-size: 13px;
 }
 
@@ -48,6 +41,7 @@
   font-size: 20px;
   line-height: 0;
   color: #415F69;
+  margin-bottom: 2px;
 }
 
 .siteHeaderLink {
