@@ -17,6 +17,8 @@ import { BarChartComponent } from './decor/bar-chart.component';
 import { DoughnutChartComponent } from './decor/doughnut-chart.component';
 // import { NvD3testDirective } from './after-login/nv-d3test.directive';
 
+import { routing } from './app.routing';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +37,8 @@ import { DoughnutChartComponent } from './decor/doughnut-chart.component';
     BrowserModule,
     FormsModule,
     HttpModule,
-    ChartsModule
+    ChartsModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]

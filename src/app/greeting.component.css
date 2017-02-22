@@ -1,6 +1,19 @@
-@font-face {
-   font-family: 'Open Sans';
-   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+.app-sitemain {
+  display: flex;
+  flex:auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+}
+
+.footer_frame {
+  border-top: 1px solid #D7DBDD;
+  margin: 0;
+  padding: 0;
+  height: 30px;
 }
 
 .greeting_frame {
@@ -11,35 +24,39 @@
 
 .greeting_cambus {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .greeting_img {
-  background: url(../../assets/images/ferriswheel001.JPG);
-  width: 900px;
-  height: 280px;
+  background: url(../assets/images/before-login-content001.png);
+  width: 1100px;
+  height: 720px;
   display: flex;
   align-items: center;
   justify-content:flex-start;
   flex-flow: column nowrap;
 }
 
+.greeting_msg_welcom {
+  color: #093a67;
+  font-size: 35px;
+  font-family: 'Ubuntu';
+  margin-top: 70px;
+}
+
 .greeting_msg_big {
-  color: white;
+  color: #093a67;
   font-size: 80px;
-  width: 900px;
   display: flex;
-  margin-left: 70px;
-  margin-bottom: 100px;
-  margin-top: 20px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
 }
 
 .greeting_msg {
-  color: white;
+  color: #093a67;
   font-size: 35px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
 }
 
 .release_report {

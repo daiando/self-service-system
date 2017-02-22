@@ -1,6 +1,9 @@
 <div class="basic_modal_frame">
   <div class="login_inner_top">
-    <div class="login_inner_top_left">
+    <div class="login_title">
+      Input Your Rakuten Account
+    </div>
+    <!-- <div class="login_inner_top_left">
       <i class="fa fa-sign-in" aria-hidden="true"></i>
     </div>
     <div class="login_inner_top_right">
@@ -8,7 +11,7 @@
         Input Your Rakuten Account
       </div>
       <div class="login_inner_top_right_child"></div>
-    </div>
+    </div> -->
   </div>
   <div class="login_inner_middle">
     <div class="loginInput">
@@ -25,7 +28,7 @@
     </div>
     <div class="login_enter">
       <div></div>
-      <div class="login_enter_btn">
+      <div class="login_enter_btn" [routerLink]="['/main']">
         <div style="margin-top: 3px;">Login</div>
       </div>
     </div>

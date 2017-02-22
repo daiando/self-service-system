@@ -9,6 +9,8 @@ export class HeaderComponent implements OnInit {
 
   public loginmodalcss = "makeithidden";
 
+  public right_title: string = 'LOG IN'
+
   constructor() { }
 
   ngOnInit() {

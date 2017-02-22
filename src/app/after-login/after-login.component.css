@@ -1,13 +1,3 @@
-/*@font-face {
-   font-family: 'Open Sans';
-   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-   font-family: 'Open Sans Light';
-   src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
-}*/
-
 .after_login_frame {
   display: flex;
   align-items: flex-start;
@@ -15,7 +5,7 @@
   height: 100%;
   flex-direction: row;
   width: 1400px;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 10px;
 }
 
@@ -24,17 +14,29 @@
   align-items: flex-start;
   justify-content: center;
   width: 870px;
-  /*margin-top: 10px;*/
-  margin-right: 5px;
   flex-flow: column;
+}
+
+.service_menu_title {
+  display: flex;
+  font-family: 'Open Sans Bold';
+  align-items: center;
+  width: inherit;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  background-color: #deeff5;
+  justify-content: flex-start;
 }
 
 .service_main_menu {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: inherit;
-  margin-top: 10px;
+  justify-content: center;
+  width: 866px;
+  /*margin-top: 10px;*/
+  padding-top: 1px;
+  height: 75px;
+  border: 2px solid #deeff5;
 }
 
 .inner_right_frame {
@@ -47,7 +49,7 @@
 
 .main_menu_info {
   display: flex;
-  border: 1px solid #d2ecf1;
+  border: 1px solid #deeff5;
   border-radius: 5px;
   height: 300px;
   width: inherit;
@@ -92,11 +94,11 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 210px;
-  height: 100px;
-  margin: 2px;
+  width: 205px;
+  height: 60px;
+  margin: 1px 4px;
   padding: 0;
-  border: 1px solid #bbc8cf;
+  border: 1px solid #a1dbfa;
   border-radius: 5px;
   display: flex;
   align-items: flex-start;
@@ -107,9 +109,9 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 175px;
-  height: 50px;
-  margin-top: 15px;
+  width: 200px;
+  height: 35px;
+  margin-top: 7px;
 }
 
 .service_main_item_bottom {
@@ -117,7 +119,7 @@
   font-family: 'Open Sans';
   align-items: flex-start;
   justify-content: flex-start;
-  margin: 5px 5px 0px 10px;
+  margin: 0px 0px 10px 10px;
   display: flex;
 }
 
@@ -127,13 +129,15 @@
 }
 
 .logo_entypo_style {
-  width: 35px;
-  height: 35px;
-  margin-top: 10px;
+  width: 27px;
+  height: 27px;
+  margin-top: 8px;
 }
 
 .menu_title {
-  font-size: 21px;
+  font-size: 18px;
+  margin-right: 20px;
+  margin-top: 5px;
 }
 
 .chart_parts {

@@ -1,7 +1,8 @@
 .header_frame {
   height: 40px;
   border-bottom: 1px solid #D7DBDD;
-  padding: 1px;
+  margin: 0;
+  padding: 0;
 }
 
 .app-sitemain {
@@ -12,8 +13,12 @@
   height: 100%;
   align-items: flex-start;
   justify-content: center;
+  margin: 0;
 }
 
 .footer_frame {
   border-top: 1px solid #D7DBDD;
+  margin: 0;
+  padding: 0;
+  height: 30px;
 }

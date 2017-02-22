@@ -1,25 +1,20 @@
-@font-face {
-   font-family: 'Open Sans';
-   src: url('assets/fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-   font-family: 'Open Sans Light';
-   src: url('assets/fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
-}
-
 .siteHeader {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*background-color: #56727C;*/
+  background-color: #f2fbfb;
   /*font-family: 'PT Sans', sans-serif;*/
   font-family: 'Ubuntu', sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 40px;
 }
 
 .siteHeader__section {
   display: flex;
   align-items: center;
+  padding: 0;
+  margin: 0;
 }
 
 .siteHeader__item {
