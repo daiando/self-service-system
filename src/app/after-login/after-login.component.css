@@ -4,7 +4,7 @@
   justify-content: center;
   height: 100%;
   flex-direction: row;
-  width: 1400px;
+  width: 1220px;
   margin-top: 0px;
   margin-bottom: 10px;
 }
@@ -13,8 +13,17 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  width: 870px;
+  width: 770px;
   flex-flow: column;
+  margin-right: 5px;
+}
+
+.inner_right_frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  width: 430px;
 }
 
 .service_menu_title {
@@ -32,19 +41,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 866px;
+  width: 766px;
   /*margin-top: 10px;*/
   padding-top: 1px;
   height: 75px;
   border: 2px solid #deeff5;
-}
-
-.inner_right_frame {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-flow: column;
-  width: 630px;
 }
 
 .main_menu_info {
@@ -64,7 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width:430px;
+  width:330px;
   height: 300px;
   display: flex;
   margin: 5px
@@ -94,7 +95,7 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  width: 205px;
+  width: 180px;
   height: 60px;
   margin: 1px 4px;
   padding: 0;
@@ -109,7 +110,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 200px;
+  width: 170px;
   height: 35px;
   margin-top: 7px;
 }

@@ -31,8 +31,8 @@
 
 .greeting_img {
   background: url(../assets/images/before-login-content001.png);
-  width: 1100px;
-  height: 720px;
+  width: 950px;
+  height: 630px;
   display: flex;
   align-items: center;
   justify-content:flex-start;

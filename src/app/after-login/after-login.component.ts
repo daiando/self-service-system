@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-// import { NvD3testDirective } from './nv-d3test.directive';
 
 @Component({
   selector: 'svr-after-login',
