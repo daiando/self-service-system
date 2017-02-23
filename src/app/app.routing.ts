@@ -2,7 +2,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AfterLoginComponent } from './after-login/after-login.component';
 import { GreetingComponent } from './greeting.component';
-import { AFTER_LOGIN_ROUTES } from './after-login/after-login.routes';
 import { DesignComponent } from './design/design.component';
 import { OperationComponent } from './operation/operation.component';
 
