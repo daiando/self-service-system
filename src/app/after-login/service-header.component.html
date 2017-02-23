@@ -1,16 +1,13 @@
-<nav>
+<!-- <nav>
   <div class="siteHeader">
-    <!-- This section gets pushed to the left side-->
     <div class="siteHeader__section">
       <div class="siteHeader__item siteHeaderLogo">
         <i class="fa fa-diamond" aria-hidden="true"></i>
       </div>
-      <!-- <div class="siteHeader__item siteHeaderButton is-site-header-item-selected">HOME</div> -->
       <div class="siteHeader__item siteHeaderLink">HOME</div>
-      <!-- <div class="siteHeader__item siteHeaderLink">DESIGN</div>
-      <div class="siteHeader__item siteHeaderLink">YOUR HISTORY</div> -->
+
     </div>
-    <!-- This section gets pushed to the right side-->
+
     <div class="siteHeader__section">
       <div class="siteHeader__item siteHeader_welcome">
         <div class="welcomemsg" style="min-width: 50px;">
@@ -24,6 +21,34 @@
       <div class="siteHeader__item siteHeaderLink siteHeader_welcome" style="min-width: 75px;">CONTACT US</div>
       <div class="siteHeader__item siteHeaderLink" style="min-width: 65px;">
         <a class="logout">LOG OUT</a>
+      </div>
+    </div>
+  </div>
+</nav> -->
+
+<nav>
+  <div class="siteHeader">
+    <!-- This section gets pushed to the left side-->
+    <div class="siteHeader__section">
+      <div class="siteHeader__item siteHeaderLogo">
+        <i class="fa fa-diamond" aria-hidden="true"></i>
+      </div>
+      <!-- <div class="siteHeader__item siteHeaderButton is-site-header-item-selected">HOME</div> -->
+      <div class="siteHeader__item siteHeaderLink">DOCS</div>
+      <!-- <div class="siteHeader__item siteHeaderLink">DESIGN</div>
+      <div class="siteHeader__item siteHeaderLink">YOUR HISTORY</div> -->
+    </div>
+    <!-- This section gets pushed to the right side-->
+    <div class="siteHeader__section">
+      <div class="siteHeader__item siteHeaderLink">
+        <!-- <a class="login" href="#ex1" rel="modal:open">LOG IN</a> -->
+        <!-- <a data-target="login" class="login open_login_modal">LOG IN</a> -->
+        <!-- <a id="loginmodal" href="#content01" class="login"  (click)="onChangeLoginModalCss('makeitvisible')">LOG IN</a> -->
+        <a id="loginmodal" href="#content01" class="login" >
+          <div class="makeitvisible" [routerLink]="['/main']">
+            LOG IN
+          </div>
+        </a>
       </div>
     </div>
   </div>

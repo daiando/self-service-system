@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   selector: 'svr-after-login',
   templateUrl: './after-login.component.html',

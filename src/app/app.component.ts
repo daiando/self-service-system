@@ -9,6 +9,8 @@ import { ServiceListComponent } from './service-list/service-list.component';
 import { LineChartComponent } from './decor/line-chart.component';
 import { BarChartComponent } from './decor/bar-chart.component';
 import { DoughnutChartComponent } from './decor/doughnut-chart.component';
+import { OperationComponent } from './operation/operation.component';
+import { DesignComponent } from './design/design.component';
 
 @Component({
   selector: 'svr-root',
